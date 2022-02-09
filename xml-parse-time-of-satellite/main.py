@@ -1,19 +1,20 @@
-import xml.etree.ElementTree as ET
 import os
 import time
+import xml.etree.ElementTree as ET
+import pandas
 # import datetime
 import playsound
-import pandas
 
 
 # запуск файла mp3
 def start_sound():
     playsound.playsound('start.mp3')
+#    return print('событие было')
 
 
 def start_sound_3m():
     playsound.playsound('before_start.mp3')
-
+ #   return print('событие было')
 
 # функция проверки номера витка
 def sat_turn_checker(mass):
@@ -368,10 +369,10 @@ def one_xml_work(name_file):
         culm_el.pop(el)
 
     # Часть pandas
-    name_excel_file = name_gen(name_file[:-4]) + '.xlsx'
+    name_excel_file = name_gen(name_file[:-4]) + '.xls'
     df = pandas.DataFrame({'sat_name': sat_name_mchs, 'time_start': date_time_go_in_time_mass(date_time_st_rcurchs),
                            'time_end': date_time_go_in_time_mass(date_time_end_rcurchs), 'el_culm': round_el(culm_el)})
-    writer = pandas.ExcelWriter(name_excel_file, engine='xlsxwriter')
+    writer = pandas.ExcelWriter(name_excel_file, engine='xlwt')
     df.to_excel(writer, 'Sheet1')
     writer.save()
     return res_time_start
@@ -431,14 +432,17 @@ while len(date_time_start_array_all_files) > 0:
             print("3 минуты до начала сеанса!")
             start_sound_3m()
             res_time_3m_before.pop(0)
+            continue
         if time_now == res_time_3m_before[1]:
             print('3 минуты до начала сеанса!')
             start_sound_3m()
+            continue
     elif len(res_time_3m_before) == 1:
         if time_now == res_time_3m_before[0]:
             print("3 минуты до начала сеанса!")
             start_sound_3m()
-            res_time_3m_before.pop(0)
+            #res_time_3m_before.pop(0)
+            continue
     else:
         continue
 
@@ -446,6 +450,7 @@ while len(date_time_start_array_all_files) > 0:
         print("Сеанс начат")
         start_sound()
         date_time_start_array_all_files.pop(0)
+        continue
     print(time_now)
     time.sleep(1)
 print('Работа программы завершена.')
