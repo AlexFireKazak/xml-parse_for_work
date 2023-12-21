@@ -2,7 +2,7 @@ import os
 import time
 import xml.etree.ElementTree as ET
 import pandas
-# import datetime
+import datetime
 import playsound
 
 
@@ -26,7 +26,7 @@ def sat_turn_checker(mass):
     mass_out = [str(i) for i in mass_int]
     return mass_out
 
-
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # функция "округления" времени до секунд и приведение в виду 12.01.2022 06:04:58 для массива
 def time_round_sec(mass):
     for i in range(len(mass)):
@@ -361,9 +361,6 @@ def one_xml_work(name_file):
         elif sat_name_mchs[i] == 'METOP-B' or sat_name_mchs[i] == 'METOP-C':
             if not check_time_night(date_time_st_rcurchs[i]):
                 index.append(i)
-        elif sat_name_mchs[i] == 'NOAA 19' or sat_name_mchs[i] == 'NOAA 18':
-            if check_time_night(date_time_st_rcurchs[i]):
-                index.append(i)
 
     for el in index[::-1]:
         sat_name_mchs.pop(el)
@@ -379,6 +376,7 @@ def one_xml_work(name_file):
     df.to_excel(writer, 'Sheet1')
     writer.save()
     return res_time_start
+
 
 start_sound()
 time.sleep(1)
@@ -404,63 +402,3 @@ print(true_files)
 for file in true_files:
     date_time_start_array_all_files += one_xml_work(file)
 os.chdir('D:/Kazak/xml-parse')
-
-date_time_start_array_all_files = time_3h_plus_mass(date_time_start_array_all_files)
-# print(date_time_start_array_all_files)
-
-# print(time_3h_plus(time.strftime('%d.%m.%Y %H:%M:%S')))
-
-# print(time.strftime('%d.%m.%Y %H:%M:%S') == res[0])
-# print(res_time_start)
-# print(len(res_time_start))
-# print(time.strftime('%d.%m.%Y %H:%M:%S'))
-# print(time_3m_before('16.01.2022 11:07:29'))
-print()
-
-# отсекаем прошедшее время, если есть
-while compare_time_lower_than_now(date_time_start_array_all_files[0]):
-    date_time_start_array_all_files.pop(0)
-    # print(date_time_start_array_all_files[0])
-    # print(len(date_time_start_array_all_files))
-    if len(date_time_start_array_all_files) == 0:
-        print('Нет новых сеансов')
-        time.sleep(60)
-        break
-# реакция на время и отсекание прошедшего пока не закончится список
-print(date_time_start_array_all_files)
-res_time_3m_before = list(map(time_3m_before, date_time_start_array_all_files.copy()))
-date_time_start_array_all_files = list(map(time_20sec_before, date_time_start_array_all_files))
-# print(date_time_start_array_all_files)
-print(res_time_3m_before)
-print()
-print("---%s seconds ---" % (time.time() - start_time))
-while len(date_time_start_array_all_files) > 0:
-    time_now = time.strftime('%d.%m.%Y %H:%M:%S')
-    if len(res_time_3m_before) > 1:
-        if time_now == res_time_3m_before[0]:
-            print("3 минуты до начала сеанса!")
-            start_sound_3m()
-            res_time_3m_before.pop(0)
-            continue
-        if time_now == res_time_3m_before[1]:
-            print('3 минуты до начала сеанса!')
-            start_sound_3m()
-            continue
-    elif len(res_time_3m_before) == 1:
-        if time_now == res_time_3m_before[0]:
-            print("3 минуты до начала сеанса!")
-            start_sound_3m()
-            #res_time_3m_before.pop(0)
-            continue
-    else:
-        continue
-
-    if time_now == date_time_start_array_all_files[0]:
-        print("Сеанс начат")
-        start_sound()
-        date_time_start_array_all_files.pop(0)
-        continue
-    print(time_now)
-    time.sleep(1)
-print('Работа программы завершена.')
-time.sleep(300)
