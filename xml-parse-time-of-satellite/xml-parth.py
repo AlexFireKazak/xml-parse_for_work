@@ -27,7 +27,7 @@ def sat_turn_checker(mass):
     return mass_out
 
 
-# функция "округления" времени до секунд и приведение в виду 12.01.2022 06:04:58 для массива
+# функция "округления" времени до секунд и приведение ввиду 12.01.2022 06:04:58 для массива
 def time_round_sec(mass):
     for i in range(len(mass)):
         struct = time.strptime(mass[i][:mass[i].index('.', -6)], '%Y.%m.%d %H:%M:%S')
@@ -108,7 +108,8 @@ def compare_time_lower_than_now(time):
 
 # функция работы с одним .xml-файлом. проверяет витки и создает файл для мчс
 def one_xml_work(name_file):
-    tree = ET.parse(name_file)
+    #ET.fromstring(open(name_file).read())
+    tree = ET.parse(name_file, parser=ET.XMLParser())#open(name_file).read())
     root = tree.getroot()
     date_time_end_array = []
     sat_turn_in = []
@@ -143,12 +144,12 @@ def one_xml_work(name_file):
     # редактирование списков(удаление ненужных сеансов при условиях)
     index = []
     for i in range(len(sat_name_mchs)):
-        if sat_name_mchs[i] == 'METOP-B' or sat_name_mchs[i] == 'METOP-C':
+        if sat_name_mchs[i] == 'Metop-B' or sat_name_mchs[i] == 'Metop-C':
             if not check_time_night(date_time_st_rcurchs[i]):
                 index.append(i)
-        elif sat_name_mchs[i] == 'NOAA 19' or sat_name_mchs[i] == 'NOAA 18':
-            if not check_time_night(date_time_st_rcurchs[i]):
-                index.append(i)
+     #   elif sat_name_mchs[i] == 'NOAA 19' or sat_name_mchs[i] == 'NOAA 18':
+     #       if not check_time_night(date_time_st_rcurchs[i]):
+     #           index.append(i)
         elif sat_name_mchs[i] == 'FENGYUN-3E':
             index.append(i)
 
@@ -159,12 +160,14 @@ def one_xml_work(name_file):
         culm_el.pop(el)
 
     # Часть pandas
-    name_excel_file = name_gen(name_file[:-4]) + '.xls'
+    name_excel_file = name_gen(name_file[:-4]) + '.xlsx'
     df = pandas.DataFrame({'sat_name': sat_name_mchs, 'time_start': date_time_go_in_time_mass(date_time_st_rcurchs),
                            'time_end': date_time_go_in_time_mass(date_time_end_rcurchs), 'el_culm': round_el(culm_el)})
-    writer = pandas.ExcelWriter(name_excel_file, engine='xlwt')
-    df.to_excel(writer, 'Sheet1')
-    writer.save()
+    #writer = pandas.ExcelWriter(name_excel_file, engine='xlwt')
+    #df.to_excel(writer,'Sheet1')
+    #writer.save()
+    with pandas.ExcelWriter(name_excel_file) as writer:
+        df.to_excel(writer, sheet_name='Sheet1')
     return res_time_start
 
 # Рабочая часть
