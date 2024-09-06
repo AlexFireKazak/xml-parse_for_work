@@ -1,0 +1,278 @@
+<sessions_plan>
+    <session>
+        <sat_name>FENGYUN-3E</sat_name>
+        <sat_id>49008</sat_id>
+        <sat_turn>12759</sat_turn>
+        <date_time_start>2023.12.21 05:16:30.335</date_time_start>
+        <az_start>6.94</az_start>
+        <date_time_culm>2023.12.21 05:21:37.129</date_time_culm>
+        <az_culm>297.01</az_culm>
+        <date_time_end>2023.12.21 05:26:43.923</date_time_end>
+        <az_end>225.94</az_end>
+        <el_culm>44.56</el_culm>
+    </session>
+    <session>
+        <sat_name>METOP-C</sat_name>
+        <sat_id>43689</sat_id>
+        <sat_turn>26570</sat_turn>
+        <date_time_start>2023.12.21 07:20:03.613</date_time_start>
+        <az_start>30.60</az_start>
+        <date_time_culm>2023.12.21 07:24:53.882</date_time_culm>
+        <az_culm>94.11</az_culm>
+        <date_time_end>2023.12.21 07:29:44.151</date_time_end>
+        <az_end>158.45</az_end>
+        <el_culm>32.93</el_culm>
+    </session>
+    <session>
+        <sat_name>SUOMI NPP</sat_name>
+        <sat_id>37849</sat_id>
+        <sat_turn>62949</sat_turn>
+        <date_time_start>2023.12.21 08:58:18.947</date_time_start>
+        <az_start>96.31</az_start>
+        <date_time_culm>2023.12.21 09:02:08.597</date_time_culm>
+        <az_culm>50.97</az_culm>
+        <date_time_end>2023.12.21 09:05:58.247</date_time_end>
+        <az_end>5.87</az_end>
+        <el_culm>20.05</el_culm>
+    </session>
+    <session>
+        <sat_name>TERRA</sat_name>
+        <sat_id>25994</sat_id>
+        <sat_turn>27708</sat_turn>
+        <date_time_start>2023.12.21 09:13:29.597</date_time_start>
+        <az_start>8.28</az_start>
+        <date_time_culm>2023.12.21 09:18:07.811</date_time_culm>
+        <az_culm>292.39</az_culm>
+        <date_time_end>2023.12.21 09:22:46.025</date_time_end>
+        <az_end>214.44</az_end>
+        <el_culm>55.67</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <sat_id>43013</sat_id>
+        <sat_turn>31553</sat_turn>
+        <date_time_start>2023.12.21 09:46:47.785</date_time_start>
+        <az_start>128.79</az_start>
+        <date_time_culm>2023.12.21 09:51:47.478</date_time_culm>
+        <az_culm>61.33</az_culm>
+        <date_time_end>2023.12.21 09:56:47.171</date_time_end>
+        <az_end>354.75</az_end>
+        <el_culm>39.27</el_culm>
+    </session>
+    <session>
+        <sat_name>SUOMI NPP</sat_name>
+        <sat_id>37849</sat_id>
+        <sat_turn>62950</sat_turn>
+        <date_time_start>2023.12.21 10:36:15.347</date_time_start>
+        <az_start>158.80</az_start>
+        <date_time_culm>2023.12.21 10:41:41.003</date_time_culm>
+        <az_culm>66.30</az_culm>
+        <date_time_end>2023.12.21 10:47:06.659</date_time_end>
+        <az_end>345.05</az_end>
+        <el_culm>83.81</el_culm>
+    </session>
+    <session>
+        <sat_name>FENGYUN-3D</sat_name>
+        <sat_id>43010</sat_id>
+        <sat_turn>31606</sat_turn>
+        <date_time_start>2023.12.21 11:07:52.167</date_time_start>
+        <az_start>146.34</az_start>
+        <date_time_culm>2023.12.21 11:13:12.218</date_time_culm>
+        <az_culm>66.56</az_culm>
+        <date_time_end>2023.12.21 11:18:32.269</date_time_end>
+        <az_end>348.74</az_end>
+        <el_culm>61.42</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <sat_id>43013</sat_id>
+        <sat_turn>31554</sat_turn>
+        <date_time_start>2023.12.21 11:26:50.943</date_time_start>
+        <az_start>190.14</az_start>
+        <date_time_culm>2023.12.21 11:32:00.384</date_time_culm>
+        <az_culm>262.63</az_culm>
+        <date_time_end>2023.12.21 11:37:09.825</date_time_end>
+        <az_end>333.95</az_end>
+        <el_culm>43.43</el_culm>
+    </session>
+    <session>
+        <sat_name>AQUA</sat_name>
+        <sat_id>27424</sat_id>
+        <sat_turn>15066</sat_turn>
+        <date_time_start>2023.12.21 12:17:25.683</date_time_start>
+        <az_start>203.30</az_start>
+        <date_time_culm>2023.12.21 12:21:38.350</date_time_culm>
+        <az_culm>265.93</az_culm>
+        <date_time_end>2023.12.21 12:25:51.017</date_time_end>
+        <az_end>327.79</az_end>
+        <el_culm>30.49</el_culm>
+    </session>
+    <session>
+        <sat_name>FENGYUN-3E</sat_name>
+        <sat_id>49008</sat_id>
+        <sat_turn>12765</sat_turn>
+        <date_time_start>2023.12.21 15:05:50.379</date_time_start>
+        <az_start>169.33</az_start>
+        <date_time_culm>2023.12.21 15:11:15.895</date_time_culm>
+        <az_culm>257.57</az_culm>
+        <date_time_end>2023.12.21 15:16:41.411</date_time_end>
+        <az_end>341.48</az_end>
+        <el_culm>74.96</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 19</sat_name>
+        <sat_id>33591</sat_id>
+        <sat_turn>76642</sat_turn>
+        <date_time_start>2023.12.21 17:15:09.753</date_time_start>
+        <az_start>127.30</az_start>
+        <date_time_culm>2023.12.21 17:20:11.741</date_time_culm>
+        <az_culm>60.47</az_culm>
+        <date_time_end>2023.12.21 17:25:13.729</date_time_end>
+        <az_end>354.25</az_end>
+        <el_culm>38.69</el_culm>
+    </session>
+    <session>
+        <sat_name>METOP-B</sat_name>
+        <sat_id>38771</sat_id>
+        <sat_turn>58418</sat_turn>
+        <date_time_start>2023.12.21 17:54:31.175</date_time_start>
+        <az_start>132.32</az_start>
+        <date_time_culm>2023.12.21 17:59:33.879</date_time_culm>
+        <az_culm>62.62</az_culm>
+        <date_time_end>2023.12.21 18:04:36.583</date_time_end>
+        <az_end>353.86</az_end>
+        <el_culm>42.47</el_culm>
+    </session>
+    <session>
+        <sat_name>TERRA</sat_name>
+        <sat_id>25994</sat_id>
+        <sat_turn>27713</sat_turn>
+        <date_time_start>2023.12.21 18:47:13.429</date_time_start>
+        <az_start>143.44</az_start>
+        <date_time_culm>2023.12.21 18:51:50.275</date_time_culm>
+        <az_culm>67.21</az_culm>
+        <date_time_end>2023.12.21 18:56:27.121</date_time_end>
+        <az_end>352.52</az_end>
+        <el_culm>52.50</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 18</sat_name>
+        <sat_id>28654</sat_id>
+        <sat_turn>95806</sat_turn>
+        <date_time_start>2023.12.21 19:00:02.881</date_time_start>
+        <az_start>131.15</az_start>
+        <date_time_culm>2023.12.21 19:05:15.492</date_time_culm>
+        <az_culm>61.96</az_culm>
+        <date_time_end>2023.12.21 19:10:28.103</date_time_end>
+        <az_end>353.30</az_end>
+        <el_culm>42.34</el_culm>
+    </session>
+    <session>
+        <sat_name>METOP-B</sat_name>
+        <sat_id>38771</sat_id>
+        <sat_turn>58419</sat_turn>
+        <date_time_start>2023.12.21 19:34:41.357</date_time_start>
+        <az_start>194.11</az_start>
+        <date_time_culm>2023.12.21 19:39:43.725</date_time_culm>
+        <az_culm>263.79</az_culm>
+        <date_time_end>2023.12.21 19:44:46.093</date_time_end>
+        <az_end>332.51</az_end>
+        <el_culm>39.38</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 18</sat_name>
+        <sat_id>28654</sat_id>
+        <sat_turn>95807</sat_turn>
+        <date_time_start>2023.12.21 20:40:41.133</date_time_start>
+        <az_start>191.81</az_start>
+        <date_time_culm>2023.12.21 20:45:57.247</date_time_culm>
+        <az_culm>262.86</az_culm>
+        <date_time_end>2023.12.21 20:51:13.361</date_time_end>
+        <az_end>333.20</az_end>
+        <el_culm>41.76</el_culm>
+    </session>
+    <session>
+        <sat_name>SUOMI NPP</sat_name>
+        <sat_id>37849</sat_id>
+        <sat_turn>62957</sat_turn>
+        <date_time_start>2023.12.21 22:48:23.823</date_time_start>
+        <az_start>39.90</az_start>
+        <date_time_culm>2023.12.21 22:52:27.731</date_time_culm>
+        <az_culm>88.67</az_culm>
+        <date_time_end>2023.12.21 22:56:31.639</date_time_end>
+        <az_end>137.79</az_end>
+        <el_culm>21.17</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <sat_id>43013</sat_id>
+        <sat_turn>31561</sat_turn>
+        <date_time_start>2023.12.21 23:37:53.129</date_time_start>
+        <az_start>24.70</az_start>
+        <date_time_culm>2023.12.21 23:43:06.957</date_time_culm>
+        <az_culm>98.42</az_culm>
+        <date_time_end>2023.12.21 23:48:20.785</date_time_end>
+        <az_end>173.44</az_end>
+        <el_culm>47.59</el_culm>
+    </session>
+    <session>
+        <sat_name>AQUA</sat_name>
+        <sat_id>27424</sat_id>
+        <sat_turn>15073</sat_turn>
+        <date_time_start>2023.12.22 00:08:42.191</date_time_start>
+        <az_start>26.47</az_start>
+        <date_time_culm>2023.12.22 00:13:13.808</date_time_culm>
+        <az_culm>97.46</az_culm>
+        <date_time_end>2023.12.22 00:17:45.425</date_time_end>
+        <az_end>169.62</az_end>
+        <el_culm>42.07</el_culm>
+    </session>
+    <session>
+        <sat_name>SUOMI NPP</sat_name>
+        <sat_id>37849</sat_id>
+        <sat_turn>62958</sat_turn>
+        <date_time_start>2023.12.22 00:27:52.951</date_time_start>
+        <az_start>13.98</az_start>
+        <date_time_culm>2023.12.22 00:33:17.923</date_time_culm>
+        <az_culm>291.77</az_culm>
+        <date_time_end>2023.12.22 00:38:42.895</date_time_end>
+        <az_end>204.13</az_end>
+        <el_culm>78.00</el_culm>
+    </session>
+    <session>
+        <sat_name>FENGYUN-3D</sat_name>
+        <sat_id>43010</sat_id>
+        <sat_turn>31614</sat_turn>
+        <date_time_start>2023.12.22 00:59:31.617</date_time_start>
+        <az_start>18.74</az_start>
+        <date_time_culm>2023.12.22 01:04:57.061</date_time_culm>
+        <az_culm>102.59</az_culm>
+        <date_time_end>2023.12.22 01:10:22.505</date_time_end>
+        <az_end>191.06</az_end>
+        <el_culm>75.20</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <sat_id>43013</sat_id>
+        <sat_turn>31562</sat_turn>
+        <date_time_start>2023.12.22 01:18:20.863</date_time_start>
+        <az_start>4.16</az_start>
+        <date_time_culm>2023.12.22 01:23:15.369</date_time_culm>
+        <az_culm>299.73</az_culm>
+        <date_time_end>2023.12.22 01:28:09.875</date_time_end>
+        <az_end>234.59</az_end>
+        <el_culm>36.32</el_culm>
+    </session>
+    <session>
+        <sat_name>AQUA</sat_name>
+        <sat_id>27424</sat_id>
+        <sat_turn>15074</sat_turn>
+        <date_time_start>2023.12.22 01:46:32.019</date_time_start>
+        <az_start>1.37</az_start>
+        <date_time_culm>2023.12.22 01:50:48.172</date_time_culm>
+        <az_culm>298.19</az_culm>
+        <date_time_end>2023.12.22 01:55:04.325</date_time_end>
+        <az_end>234.31</az_end>
+        <el_culm>33.72</el_culm>
+    </session>
+</sessions_plan>

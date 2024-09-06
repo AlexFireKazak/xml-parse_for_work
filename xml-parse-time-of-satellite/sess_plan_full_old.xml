@@ -1,0 +1,242 @@
+<sessions_plan>
+    <session>
+        <sat_name>NOAA 19</sat_name>
+        <sat_id>33591</sat_id>
+        <sat_turn>66613</sat_turn>
+        <date_time_start>2022.01.12 06:04:58.587</date_time_start>
+        <az_start>19.61</az_start>
+        <date_time_culm>2022.01.12 06:10:33.107</date_time_culm>
+        <az_culm>101.97</az_culm>
+        <date_time_end>2022.01.12 06:16:07.627</date_time_end>
+        <az_end>190.08</az_end>
+        <el_culm>72.63</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 18</sat_name>
+        <sat_id>28654</sat_id>
+        <sat_turn>85793</sat_turn>
+        <date_time_start>2022.01.12 08:10:40.217</date_time_start>
+        <az_start>26.58</az_start>
+        <date_time_culm>2022.01.12 08:15:54.686</date_time_culm>
+        <az_culm>97.95</az_culm>
+        <date_time_end>2022.01.12 08:21:09.155</date_time_end>
+        <az_end>169.61</az_end>
+        <el_culm>42.93</el_culm>
+    </session>
+    <session>
+        <sat_name>METOP-B</sat_name>
+        <sat_id>38771</sat_id>
+        <sat_turn>48355</sat_turn>
+        <date_time_start>2022.01.12 08:57:31.831</date_time_start>
+        <az_start>9.07</az_start>
+        <date_time_culm>2022.01.12 09:02:44.727</date_time_culm>
+        <az_culm>294.72</az_culm>
+        <date_time_end>2022.01.12 09:07:57.623</date_time_end>
+        <az_end>218.86</az_end>
+        <el_culm>53.05</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <sat_id>43013</sat_id>
+        <sat_turn>21508</sat_turn>
+        <date_time_start>2022.01.12 09:21:01.323</date_time_start>
+        <az_start>112.55</az_start>
+        <date_time_culm>2022.01.12 09:25:31.227</date_time_culm>
+        <az_culm>56.09</az_culm>
+        <date_time_end>2022.01.12 09:30:01.131</date_time_end>
+        <az_end>0.07</az_end>
+        <el_culm>27.49</el_culm>
+    </session>
+    <session>
+        <sat_name>TERRA</sat_name>
+        <sat_id>25994</sat_id>
+        <sat_turn>17377</sat_turn>
+        <date_time_start>2022.01.12 09:37:02.893</date_time_start>
+        <az_start>9.34</az_start>
+        <date_time_culm>2022.01.12 09:41:45.217</date_time_culm>
+        <az_culm>291.89</az_culm>
+        <date_time_end>2022.01.12 09:46:27.541</date_time_end>
+        <az_end>212.27</az_end>
+        <el_culm>59.55</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 18</sat_name>
+        <sat_id>28654</sat_id>
+        <sat_turn>85794</sat_turn>
+        <date_time_start>2022.01.12 09:51:28.899</date_time_start>
+        <az_start>6.24</az_start>
+        <date_time_culm>2022.01.12 09:56:35.961</date_time_culm>
+        <az_culm>298.42</az_culm>
+        <date_time_end>2022.01.12 10:01:43.023</date_time_end>
+        <az_end>230.43</az_end>
+        <el_culm>40.70</el_culm>
+    </session>
+    <session>
+        <sat_name>SUOMI NPP</sat_name>
+        <sat_id>37849</sat_id>
+        <sat_turn>52905</sat_turn>
+        <date_time_start>2022.01.12 10:11:42.733</date_time_start>
+        <az_start>143.93</az_start>
+        <date_time_culm>2022.01.12 10:17:00.355</date_time_culm>
+        <az_culm>66.04</az_culm>
+        <date_time_end>2022.01.12 10:22:17.977</date_time_end>
+        <az_end>349.91</az_end>
+        <el_culm>57.22</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <sat_id>43013</sat_id>
+        <sat_turn>21509</sat_turn>
+        <date_time_start>2022.01.12 10:59:59.267</date_time_start>
+        <az_start>173.68</az_start>
+        <date_time_culm>2022.01.12 11:05:23.020</date_time_culm>
+        <az_culm>258.24</az_culm>
+        <date_time_end>2022.01.12 11:10:46.773</date_time_end>
+        <az_end>339.94</az_end>
+        <el_culm>66.86</el_culm>
+    </session>
+    <session>
+        <sat_name>AQUA</sat_name>
+        <sat_id>27424</sat_id>
+        <sat_turn>4746</sat_turn>
+        <date_time_start>2022.01.12 11:32:11.971</date_time_start>
+        <az_start>187.12</az_start>
+        <date_time_culm>2022.01.12 11:36:48.513</date_time_culm>
+        <az_culm>261.85</az_culm>
+        <date_time_end>2022.01.12 11:41:25.055</date_time_end>
+        <az_end>335.14</az_end>
+        <el_culm>46.13</el_culm>
+    </session>
+    <session>
+        <sat_name>SUOMI NPP</sat_name>
+        <sat_id>37849</sat_id>
+        <sat_turn>52906</sat_turn>
+        <date_time_start>2022.01.12 11:52:52.957</date_time_start>
+        <az_start>207.16</az_start>
+        <date_time_culm>2022.01.12 11:57:33.810</date_time_culm>
+        <az_culm>267.41</az_culm>
+        <date_time_end>2022.01.12 12:02:14.663</date_time_end>
+        <az_end>327.05</az_end>
+        <el_culm>29.04</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 19</sat_name>
+        <sat_id>33591</sat_id>
+        <sat_turn>66619</sat_turn>
+        <date_time_start>2022.01.12 15:57:45.275</date_time_start>
+        <az_start>137.01</az_start>
+        <date_time_culm>2022.01.12 16:03:06.480</date_time_culm>
+        <az_culm>63.02</az_culm>
+        <date_time_end>2022.01.12 16:08:27.685</date_time_end>
+        <az_end>350.78</az_end>
+        <el_culm>49.50</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 19</sat_name>
+        <sat_id>33591</sat_id>
+        <sat_turn>66620</sat_turn>
+        <date_time_start>2022.01.12 17:38:51.757</date_time_start>
+        <az_start>198.29</az_start>
+        <date_time_culm>2022.01.12 17:43:57.379</date_time_culm>
+        <az_culm>264.78</az_culm>
+        <date_time_end>2022.01.12 17:49:03.001</date_time_end>
+        <az_end>330.15</az_end>
+        <el_culm>35.41</el_culm>
+    </session>
+    <session>
+        <sat_name>METOP-C</sat_name>
+        <sat_id>43689</sat_id>
+        <sat_turn>16518</sat_turn>
+        <date_time_start>2022.01.12 17:59:09.689</date_time_start>
+        <az_start>132.46</az_start>
+        <date_time_culm>2022.01.12 18:04:12.516</date_time_culm>
+        <az_culm>62.68</az_culm>
+        <date_time_end>2022.01.12 18:09:15.343</date_time_end>
+        <az_end>353.71</az_end>
+        <el_culm>42.69</el_culm>
+    </session>
+    <session>
+        <sat_name>METOP-B</sat_name>
+        <sat_id>38771</sat_id>
+        <sat_turn>48361</sat_turn>
+        <date_time_start>2022.01.12 18:46:11.181</date_time_start>
+        <az_start>161.58</az_start>
+        <date_time_culm>2022.01.12 18:51:35.360</date_time_culm>
+        <az_culm>32.06</az_culm>
+        <date_time_end>2022.01.12 18:56:59.539</date_time_end>
+        <az_end>344.20</az_end>
+        <el_culm>89.12</el_culm>
+    </session>
+    <session>
+        <sat_name>TERRA</sat_name>
+        <sat_id>25994</sat_id>
+        <sat_turn>17382</sat_turn>
+        <date_time_start>2022.01.12 19:11:44.581</date_time_start>
+        <az_start>142.36</az_start>
+        <date_time_culm>2022.01.12 19:16:22.546</date_time_culm>
+        <az_culm>66.74</az_culm>
+        <date_time_end>2022.01.12 19:21:00.511</date_time_end>
+        <az_end>352.67</az_end>
+        <el_culm>51.29</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 18</sat_name>
+        <sat_id>28654</sat_id>
+        <sat_turn>85800</sat_turn>
+        <date_time_start>2022.01.12 19:43:49.981</date_time_start>
+        <az_start>176.87</az_start>
+        <date_time_culm>2022.01.12 19:49:15.554</date_time_culm>
+        <az_culm>258.75</az_culm>
+        <date_time_end>2022.01.12 19:54:41.127</date_time_end>
+        <az_end>338.37</az_end>
+        <el_culm>60.93</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <sat_id>43013</sat_id>
+        <sat_turn>21516</sat_turn>
+        <date_time_start>2022.01.12 23:11:37.361</date_time_start>
+        <az_start>31.66</az_start>
+        <date_time_culm>2022.01.12 23:16:24.525</date_time_culm>
+        <az_culm>93.49</az_culm>
+        <date_time_end>2022.01.12 23:21:11.689</date_time_end>
+        <az_end>156.00</az_end>
+        <el_culm>31.14</el_culm>
+    </session>
+    <session>
+        <sat_name>SUOMI NPP</sat_name>
+        <sat_id>37849</sat_id>
+        <sat_turn>52914</sat_turn>
+        <date_time_start>2022.01.13 00:03:08.175</date_time_start>
+        <az_start>19.02</az_start>
+        <date_time_culm>2022.01.13 00:08:33.123</date_time_culm>
+        <az_culm>102.22</az_culm>
+        <date_time_end>2022.01.13 00:13:58.071</date_time_end>
+        <az_end>189.14</az_end>
+        <el_culm>72.09</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <sat_id>43013</sat_id>
+        <sat_turn>21517</sat_turn>
+        <date_time_start>2022.01.13 00:51:38.955</date_time_start>
+        <az_start>9.28</az_start>
+        <date_time_culm>2022.01.13 00:56:54.186</date_time_culm>
+        <az_culm>294.76</az_culm>
+        <date_time_end>2022.01.13 01:02:09.417</date_time_end>
+        <az_end>218.74</az_end>
+        <el_culm>53.46</el_culm>
+    </session>
+    <session>
+        <sat_name>SUOMI NPP</sat_name>
+        <sat_id>37849</sat_id>
+        <sat_turn>52915</sat_turn>
+        <date_time_start>2022.01.13 01:43:58.101</date_time_start>
+        <az_start>358.86</az_start>
+        <date_time_culm>2022.01.13 01:48:21.328</date_time_culm>
+        <az_culm>304.83</az_culm>
+        <date_time_end>2022.01.13 01:52:44.555</date_time_end>
+        <az_end>250.42</az_end>
+        <el_culm>25.85</el_culm>
+    </session>
+</sessions_plan>

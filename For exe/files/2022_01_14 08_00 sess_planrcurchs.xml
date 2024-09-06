@@ -1,0 +1,68 @@
+<sessions_plan>
+    <session>
+        <sat_name>TERRA</sat_name>
+        <date_time_start>2022.01.14 8:41:24</date_time_start>
+        <date_time_end>2022.01.14 8:52:13</date_time_end>
+        <el_culm>74.34</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <date_time_start>2022.01.14 10:22:19</date_time_start>
+        <date_time_end>2022.01.14 10:32:25</date_time_end>
+        <el_culm>68.69</el_culm>
+    </session>
+    <session>
+        <sat_name>FENGYUN-3D</sat_name>
+        <date_time_start>2022.01.14 11:15:57</date_time_start>
+        <date_time_end>2022.01.14 11:26:45</date_time_end>
+        <el_culm>80.89</el_culm>
+    </session>
+    <session>
+        <sat_name>SUOMI NPP</sat_name>
+        <date_time_start>2022.01.14 12:08:45</date_time_start>
+        <date_time_end>2022.01.14 12:18:56</date_time_end>
+        <el_culm>53.55</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <date_time_start>2022.01.14 12:24:43</date_time_start>
+        <date_time_end>2022.01.14 12:34:16</date_time_end>
+        <el_culm>24.16</el_culm>
+    </session>
+    <session>
+        <sat_name>TERRA</sat_name>
+        <date_time_start>2022.01.14 13:22:21</date_time_start>
+        <date_time_end>2022.01.14 13:33:07</date_time_end>
+        <el_culm>41.49</el_culm>
+    </session>
+    <session>
+        <sat_name>SUOMI NPP</sat_name>
+        <date_time_start>2022.01.14 13:52:13</date_time_start>
+        <date_time_end>2022.01.14 14:03:04</date_time_end>
+        <el_culm>38.75</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <date_time_start>2022.01.14 14:14:20</date_time_start>
+        <date_time_end>2022.01.14 14:24:56</date_time_end>
+        <el_culm>85.69</el_culm>
+    </session>
+    <session>
+        <sat_name>AQUA</sat_name>
+        <date_time_start>2022.01.14 15:04:06</date_time_start>
+        <date_time_end>2022.01.14 15:12:48</date_time_end>
+        <el_culm>59.57</el_culm>
+    </session>
+    <session>
+        <sat_name>SUOMI NPP</sat_name>
+        <date_time_start>2022.01.14 18:34:37</date_time_start>
+        <date_time_end>2022.01.14 18:44:38</date_time_end>
+        <el_culm>43.47</el_culm>
+    </session>
+    <session>
+        <sat_name>NOAA 20</sat_name>
+        <date_time_start>2022.01.14 20:14:42</date_time_start>
+        <date_time_end>2022.01.14 20:25:35</date_time_end>
+        <el_culm>22.35</el_culm>
+    </session>
+</sessions_plan>
