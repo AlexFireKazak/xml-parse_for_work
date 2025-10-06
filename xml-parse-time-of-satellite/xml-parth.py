@@ -163,6 +163,9 @@ def one_xml_work(name_file):
     name_excel_file = name_gen(name_file[:-4]) + '.xlsx'
     df = pandas.DataFrame({'sat_name': sat_name_mchs, 'time_start': date_time_go_in_time_mass(date_time_st_rcurchs),
                            'time_end': date_time_go_in_time_mass(date_time_end_rcurchs), 'el_culm': round_el(culm_el)})
+    # Смещаем индекс и задаем имя для колонки нумерации
+    df.index = df.index + 1
+    df.index.name = '№'  # Опционально: название колонки с номерами
     #writer = pandas.ExcelWriter(name_excel_file, engine='xlwt')
     #df.to_excel(writer,'Sheet1')
     #writer.save()
